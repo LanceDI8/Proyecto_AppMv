@@ -1,0 +1,27 @@
+# --- IDE (IntelliJ/ Android Studio )
+*.iml
+.idea/
+.gradle/
+
+# --- Build outpouts (no subir artefactos generados)
+**/build/
+**/outpouts/
+.cxx/
+.externalNativeBuild/
+captures/
+
+# --- Gradle wrapper (conservar el .jar de wrapper)
+!gradle/wrapper/gradle-wrapper.jar
+
+# --- Config local / secretos (No SUBIR Nunca)
+local.properties
+**/google-services.json
+**/*.jks
+**/keystore.properties
+
+# --- Paquetes generados
+/.apk
+*.aab
+
+# --- Archivos del SO
+.DS_Store
